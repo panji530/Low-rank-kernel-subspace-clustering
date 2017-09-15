@@ -1,4 +1,5 @@
 function K = rbfKernelMatrix(X,sig)
+% Author: Pan Ji, University of Adelaide
 if(nargin<2)
 	sig = 1;
 end
