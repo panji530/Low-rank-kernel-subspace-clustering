@@ -1,6 +1,7 @@
 function B = solveB(K, rho)
 % solve the following problem
 % \min_B \|B\|_* + rho/2 \|B^TB - K\|_F^2
+% Author: Pan Ji, University of Adelaide
 
 K = 0.5*(K+K');
 N = length(K);
