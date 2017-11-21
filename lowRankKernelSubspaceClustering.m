@@ -1,5 +1,6 @@
 function [missrate, A, grps, obj, resid] = lowRankKernelSubspaceClustering(X, s, lambda1, lambda2, lambda3, kType, affine, outlier, param)
 % Author: Pan Ji, University of Adelaide
+% All rights reserved!
 if(nargin<8)
     outlier = false;
 end
