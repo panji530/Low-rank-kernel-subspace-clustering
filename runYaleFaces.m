@@ -18,7 +18,7 @@ for i = 1:length(nSet)
 		   
         [D,N] = size(X);     		
                 
-		lambda1 = 1.1e3; lambda2 = 2e-2; lambda3 = 1e5; kType = 'pol'; Affine = true; outlier = false; 
+		lambda1 = 1.1e3; lambda2 = 2e-2; lambda3 = 1e5; kType = 'pol'; Affine = true; outlier = true; 
         param.alpha = 0.2;
         param.a = 12; 
         param.b = 2;
