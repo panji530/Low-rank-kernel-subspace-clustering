@@ -1,4 +1,4 @@
-# Low-rank-kernel-subspace-clustering
+# Adaptive-low-rank-kernel-subspace-clustering
 
 Source codes for the following paper:
 
